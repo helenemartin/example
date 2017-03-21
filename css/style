@@ -60,6 +60,7 @@ h2 {
   width: 600px;
   margin: 100px auto;
 }
+
 #video {
 position: fixed;
 left: 50%;
