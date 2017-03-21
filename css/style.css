@@ -1,0 +1,12 @@
+body {
+  background: black;
+}
+
+h1 {
+  font-family: "lato", arial, sans-serif;
+  color: gray;
+  text-align: center;
+  margin: 100px 50px 0 20px;
+  font-size: 5.9vw;
+}
+
