@@ -1,12 +1,54 @@
+@keyframes fadeout {
+  from {
+    opacity: 0.5;
+  }
+  
+  to {
+    opacity: 0;
+  }
+}
+
 body {
-  background: black;
+  
+  font-family: 'Open Sans', arial, sans-serif;
+  background-color:#f49e42;
+  
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 h1 {
   font-family: "lato", arial, sans-serif;
   color: gray;
   text-align: center;
-  margin: 100px 50px 0 20px;
-  font-size: 5.9vw;
+  margin: 120px 50px 0 20px;
+  font-size: 3.2vw;
+
 }
 
+.message {
+  border-radius:10px;
+  background: white;
+  opacity: 0.5;
+  text-align:center;
+  margin-top:200px;
+  padding-top:2px;
+  padding-bottom:20px;
+  width: 100%    !important;
+  height: auto   !important;
+
+  -webkit-animation: fadeout 1s 5s forwards;
+          animation: fadeout 1s 5s forwards;
+}
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+aside .left{
+  float:right;
+}
